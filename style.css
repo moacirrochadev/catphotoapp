@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 36px;
+    margin: 26px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+    margin: 20px;
+}
+
+h3{
+    font-size: 24px;
+    margin: 20px;
+}
+
+p{
+    font-size: 16px;
+    margin: 20px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+ul, ol{
+    text-align: center;
+    color: #fff;
+    margin: 16px;
+    font-size: 18px;
+}
+
+li{
+    font-weight: 600;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+figcaption{
+    text-align: center;
+    margin: 14px;
+    color: antiquewhite;
+}
+
+legend{
+    font-weight: 600;
+}
+
+fieldset{
+    padding: 16px;
+    margin: 16px;
+    color: antiquewhite;
+}
+
+footer{
+    background-color: #242424;
+    padding: 0.5rem;
+    margin-top: 10px;
+}
+
+footer > p {
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.seemore{
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(16, 16, 214);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photourl{
+    width: 420px;
+    margin: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.enviar{
+    padding: 3px 16px;
+    background-color: rgb(16, 16, 214);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.enviar:hover{
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+}
+
+/*@media screen(max-width: 1080px){
+    
+};*/
