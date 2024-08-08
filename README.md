@@ -4,4 +4,4 @@
 
 ![Print do site](./assets/photordm.png)
 
-[Site Preview](https://catphotoapp-two.vercel.app/)
+[Site Preview](https://moacirrochadev.github.io/catphotoapp/)
